@@ -1,0 +1,87 @@
+/* Center the form on the page */
+.login-container {
+    max-width: 600px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9; /* Same background color as signup */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Same shadow as signup */
+}
+
+/* Style for the text boxes to reduce their width */
+.form-control {
+    width: 100%; /* Make text boxes take full width of their container */
+    max-width: 400px; /* Adjust the maximum width of the text boxes */
+    margin: 0 auto; /* Center the text boxes within the container */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style for the form elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-check {
+    margin-bottom: 15px;
+}
+
+.form-check-input {
+    margin-right: 5px;
+}
+
+.form-check-label {
+    display: inline-block;
+}
+
+/* Style for the buttons */
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px; /* Ensure button width is consistent with text boxes */
+    margin: 0 auto; /* Center the button within the container */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 400px; /* Ensure button width is consistent with text boxes */
+    margin: 0 auto; /* Center the button within the container */
+    margin-top: 10px;
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+.google-login-container {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .google-login-container .gbtn {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  

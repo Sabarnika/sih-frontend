@@ -1,0 +1,62 @@
+.home6-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .home6-left {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image-wrapper {
+    width: 80%;
+    max-width: 400px;
+  }
+  
+  .main-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .home6-right {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjusts spacing between feature divs */
+  }
+  
+  .feature {
+    width: 48%; /* Adjust the width if needed */
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; /* Adds space between rows */
+  }
+  
+  .icon {
+    margin-right: 10px;
+  }
+  
+  .sign-up-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .sign-up-btn:hover {
+    background-color: #0056b3;
+  }
+  

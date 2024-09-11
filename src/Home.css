@@ -1,0 +1,96 @@
+.home-container {
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+  }
+  
+  .nav-links .login-link {
+    margin-right: 25px;
+  }
+  
+  .demo-button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px); /* Adjust height minus header */
+    background: linear-gradient(180deg, #f8f4ff, #ffffff);
+  }
+  
+  .content-wrapper {
+    text-align: center;
+    max-width: 600px; /* Adjust for maximum width */
+    margin: 0 auto;
+  }
+  
+  .main-content h2 {
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .main-content h1 {
+    margin-bottom: 15px;
+    font-size: 25px;
+  }
+  .subtitle {
+    color: #777;
+    font-size: 16px;
+  }
+  /* Add spacing between logout and book demo buttons */
+.logout-button {
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+
+/* Add space between profile link and logout button */
+.profile-link {
+  margin-right: 10px; /* Adjust spacing as needed */
+}
+
+/* Style adjustments for profile link */
+.profile-link {
+  display: flex;
+  align-items: center;
+}
+
+  .browse-button {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  
